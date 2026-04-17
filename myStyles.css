@@ -1,0 +1,108 @@
+body {
+    background-color: #F7E7CE;
+    margin: 5px;
+    padding: 5px;
+    border-color: #89CFF0;
+    border-width: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+header {
+    background-color: #89CFF0;
+    border-color: #89CFF0;
+    border-width: 2px;
+    border-style: double;
+    padding: 5px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #F7E7CE;
+    margin: 10px 0;
+}
+
+img {
+    border-color: #89CFF0;
+    border-width: 3px;
+    border-style: none;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links h5 {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #F7E7CE;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #333333;
+}
+
+.sub-headers {
+    color: #89CFF0;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.details-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wedding-list {
+    display: inline-block;
+    text-align: left;
+    list-style-position: outside;
+    padding: 0;
+}
+
+.lists {
+    color: #333333;
+    font-family: cursive;
+    font-size: 24px;
+    margin-top: 25px;
+    list-style-type: disc;
+}
+
+.wedding-list ul {
+    display: block;
+    list-style-type: circle;
+    margin-left: 35px;
+    padding-left: 0;
+}
+
+.wedding-list ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #555555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
